@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/*.ts"],
+  "exclude": ["src/web/*.ts", "src/web/*.tsx"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "sourceMap": false,
+    "inlineSources": false,
+    "declaration": false
+  }
+}
